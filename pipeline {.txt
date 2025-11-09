@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials-id')  // Jenkins credentials ID
-        DOCKER_IMAGE = 'sagar4094/my-node-app'
+        DOCKER_IMAGE = 'sagar4094/my-node-application'
     }
 
     stages {
@@ -57,3 +57,4 @@ pipeline {
         }
     }
 }
+
